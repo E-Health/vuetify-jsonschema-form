@@ -37,7 +37,9 @@ export default {
     fullOptions() {
       const httpLib = this.axios || this.$http || this.$axios
       // we use the multi-themes functionality of vuetify2 as a clue of the version
-      const vuetifyVersion = !this.$vuetify.theme.themes ? 1 : 2
+      // @beapen: theme undefined error
+      //const vuetifyVersion = !this.$vuetify.theme.themes ? 1 : 2
+      const vuetifyVersion = 2
       // icons font is only variable in vuetify 2
       const iconfont = vuetifyVersion === 1 ? 'md' : ((this.$vuetify.icons && this.$vuetify.icons.iconfont) || 'mdi')
       const icons = {
