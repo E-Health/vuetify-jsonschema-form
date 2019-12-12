@@ -1,5 +1,5 @@
 {
-  "name": "@fhirform/vuetify-jsonschema-form",
+  "name": "@dermatologist/vuetify-jsonschema-form",
   "version": "0.36.0",
   "description": "Generate forms for the vuetify UI library (vuejs) based on annotated JSON schemas.",
   "main": "dist/main.js",
